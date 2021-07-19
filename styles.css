@@ -1,0 +1,138 @@
+body, html {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(105, 108, 110);
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.nav{
+    margin-left: 30px;
+}
+
+.navicon span{
+    margin-left: 30px;
+    color: gray;
+    height: 100%;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.navicon span:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+.navbutton {
+    border-radius: 3px;
+    background-color: rgb(83, 143, 233);
+    color: white;
+    margin-left: 30px;
+    border: none;
+    padding: 8px 15px;
+    font-weight: bold;
+}
+
+.navbutton:hover {
+    box-shadow: 1px 1px 2px 2px rgb(105, 108, 110);
+}
+
+#main {
+    width: inherit;
+    margin: auto;
+}
+
+#section {
+    margin: auto;
+    width: 90%;
+    max-width: 600px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 30px;
+
+}
+
+.search {
+    border-radius: 50px;
+    border: 1px solid lightgray;
+    width: 100%;
+    height: 45px;
+    background: url("images/outline_search_black_24dp.png") 2% 50% no-repeat;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.search:hover {
+    box-shadow: 1px 1px 3px 3px rgb(224, 222, 222);
+}
+
+.search:focus {
+    outline: none;
+}
+
+.microfone {
+    position: relative;
+    left: 45%;
+    bottom: 35px;
+}
+
+.microfone:hover {
+    color: rgb(57, 127, 207);
+}
+
+.button {
+    padding: 10px;
+    margin-left: 20px;
+    border: none;
+    font-size: 15px;
+    color: rgb(75, 75, 75);
+    border-radius: 3px;
+}
+
+.button:hover {
+    box-shadow: 1px 1px 0.2em 0.2em rgb(206, 202, 202);
+}
+
+footer {
+    margin-top: 40px;
+    bottom: 0px;
+    align-self: center;
+    width: 100%;
+    background-color: rgb(238, 238, 238);  
+}
+
+footer a {
+    color: rgb(146, 146, 146);
+}

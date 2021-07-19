@@ -5,8 +5,42 @@
         <meta name="description" content="The google homepage made for the Odin Project's curriculum.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Google Homepage</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
-        <h1>Helllo bros world!</h1>
+        <header>
+            <nav id="nav"> 
+                <ul class="navbar">
+                    <li><a href="#" target="_self" class="nav">Gmail</a></li>
+                    <li><a href="#" target="_self" class="nav">Images</a></li>
+                    <li><a href="#" target="_self" class="navicon"><span class="material-icons">apps</span></a></li>
+                    <li><input type="button" value="Sign in" class="navbutton"></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="main">
+            <div id="section">
+                <a href="https://www.google.pt" class="logo"><img src="images/googlelogo_color_272x92dp.png" alt="Google logo"></a>
+                <div id="input">
+                    <!--<span class="material-icons">search</span>-->
+                    <input type="search" class="search">
+                    <a href="#" title="Search by voice" class="microfone"><span class="material-icons">settings_voice</span></a>
+                </div>
+                <input type="button" value="Google Search" class="button">
+                <input type="button" value="I'm feeling lucky" class="button">
+            </div>
+        </div>
+        <footer>
+            <ul>
+                <li><a href="#" target="_self" class="nav">About</a></li>
+                <li><a href="#" target="_self" class="nav">Advertising</a></li>
+                <li><a href="#" target="_self" class="nav">Business</a></li>
+                <li><a href="#" target="_self" class="nav">How Search works</a></li>
+                <li><a href="#" target="_self" class="nav">Privacy</a></li>
+                <li><a href="#" target="_self" class="nav">Terms</a></li>
+                <li><a href="#" target="_self" class="nav">Settings</a></li>
+            </ul>
+        </footer>
     </body>
 </html>
